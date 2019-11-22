@@ -15,7 +15,7 @@ define("URL_CSS", URL.'public/assets/css/');
 define("URL_JS", URL.'public/assets/js/');
 
 //Define a url das image //
-define("URL_IMG", URL.'public/assets/image/');
+define("URL_IMG", URL.'public/assets/images/');
 
 //Define a url das image //
 define("URL_FONT", URL.'public/assets/fonts/');

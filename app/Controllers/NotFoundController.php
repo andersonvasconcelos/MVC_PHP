@@ -9,6 +9,7 @@ class NotFoundController extends Controller
 {
 	public function index()
 	{
-		echo 'Pagina não encontrada';
+		$dados = array('pagina' => 'Página 404 Não encontrada');
+		$this->template('notFound', $dados);
 	}
 }

@@ -8,7 +8,8 @@ use \Core\Controller;
 class HomeController extends Controller
 {
 	public function index()
-	{
-		echo 'Hello Word';
+	{	
+		$dados = array('pagina' => 'Página Home');
+		$this->template('home', $dados);
 	}
 }
